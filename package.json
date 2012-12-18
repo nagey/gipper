@@ -1,0 +1,14 @@
+{
+    "name": "c2aj-update",
+    "description": "a github post-receive hook for the c2aj repo",
+    "author": "Stefan Nagey",
+    "version": "0.0.1",
+    "main": "./app.js",
+    "scripts" : {
+    	      "start" : "node app"
+    },
+    "dependencies": {
+        "express": "2.x",
+	"githubhook": "0.3.x"
+    }
+}

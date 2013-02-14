@@ -10,7 +10,7 @@ var hookName = "update-hook";
 var port = 3500;
 
 // This is the shell command that you want to run
-var runCommand = 'git pull;jekyll';
+var runCommand = 'git pull;jekyll --no-auto';
 
 // This is the initial directory from which you want your command to run
 var myCwd = "/var/www/c2aj";

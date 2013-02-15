@@ -13,7 +13,7 @@ var port = 3500;
 var runCommand = 'git pull;jekyll --no-auto';
 
 // This is the initial directory from which you want your command to run
-var myCwd = "/var/www/c2aj";
+var myCwd = "/path/to/docroot";
 
 //This is the initial environment your command should run with
 var myEnv = { "SHELL": "/bin/bash",
@@ -24,7 +24,8 @@ var myEnv = { "SHELL": "/bin/bash",
 							"LANG": "n_US.UTF-8",
 							"SHLVL": "1",
 							"HOME": "/root",
-							"LOGNAME": "root" 
+							"LOGNAME": "root",
+							"PATH": process.env.PATH 
 						};
 
 
